@@ -15,7 +15,7 @@ export default function About() {
       </header>
 
       <section className="wrap about-split">
-        <img className="about-split__img" src="/images/about-workshop.jpg" alt="A cabinet mid-build in the Fairfield workshop" loading="lazy" />
+        <img className="about-split__img" src={`${import.meta.env.BASE_URL}images/about-workshop.jpg`} alt="A cabinet mid-build in the Fairfield workshop" loading="lazy" />
         <div className="about-split__copy">
           <p>
             We began with just four people in 1995. Today we&rsquo;re a team

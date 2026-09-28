@@ -74,7 +74,7 @@ export default function Materials() {
       </section>
 
       <section className="workshop-band">
-        <img src="/images/workshop-wide.jpg" alt="Timber stock in the Fairfield workshop" loading="lazy" />
+        <img src={`${import.meta.env.BASE_URL}images/workshop-wide.jpg`} alt="Timber stock in the Fairfield workshop" loading="lazy" />
         <div className="workshop-band__scrim" />
         <div className="wrap workshop-band__copy">
           <p>

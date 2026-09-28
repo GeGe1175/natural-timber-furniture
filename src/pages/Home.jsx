@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <img className="hero__img" src="/images/tables.jpg" alt="Solid-timber coffee table with a live figured grain, built in the Fairfield workshop" />
+        <img className="hero__img" src={`${import.meta.env.BASE_URL}images/tables.jpg`} alt="Solid-timber coffee table with a live figured grain, built in the Fairfield workshop" />
         <div className="hero__scrim" />
         <div className="wrap hero__content">
           <p className="hero__dateline">Crows Nest, Sydney — bespoke since 1995</p>
@@ -78,7 +78,7 @@ export default function Home() {
 
       <section className="about-teaser">
         <div className="wrap about-teaser__inner">
-          <img className="about-teaser__img" src="/images/about-workshop.jpg" alt="An unfinished cabinet mid-build in the Fairfield workshop" loading="lazy" />
+          <img className="about-teaser__img" src={`${import.meta.env.BASE_URL}images/about-workshop.jpg`} alt="An unfinished cabinet mid-build in the Fairfield workshop" loading="lazy" />
           <div className="about-teaser__copy">
             <h2>Four people, in 1995.<br />Twenty, today.</h2>
             <p className="dim">
