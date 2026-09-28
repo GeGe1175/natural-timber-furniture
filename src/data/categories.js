@@ -11,7 +11,7 @@ export const CATEGORIES = [
     slug: 'cabinets-shelves',
     name: 'Cabinets & shelves',
     image: `${BASE}images/cabinets-shelves.jpg`,
-    blurb: 'Storage that carries weight and looks light doing it.',
+    blurb: 'Deep enough for real storage, fitted flush to the wall.',
   },
   {
     slug: 'tables-chairs',

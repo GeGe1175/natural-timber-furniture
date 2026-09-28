@@ -12,7 +12,7 @@ export default function Home() {
         <div className="wrap hero__content">
           <p className="hero__dateline">Crows Nest, Sydney — bespoke since 1995</p>
           <h1 className="hero__title">
-            Furniture built to<br />the room it lives in.
+            Furniture built to<br />fit your room.
           </h1>
           <p className="hero__sub">
             George and a twenty-person workshop in Fairfield hand-build
@@ -60,10 +60,10 @@ export default function Home() {
       <section className="materials-teaser">
         <div className="wrap materials-teaser__inner">
           <div className="materials-teaser__copy">
-            <h2>Five timbers, one workshop</h2>
+            <h2>The timbers we work in</h2>
             <p className="dim">
-              Tasmanian oak, jarrah, blackwood, blackbutt, American oak — we
-              work almost exclusively in solid hardwood, chosen with you at
+              Tasmanian oak, jarrah, blackwood, blackbutt, American oak. We
+              build almost entirely in solid hardwood, chosen with you at
               the showroom against your existing furniture and floors.
             </p>
             <Link to="/materials" className="brass-btn">Explore the timbers</Link>
@@ -80,7 +80,7 @@ export default function Home() {
         <div className="wrap about-teaser__inner">
           <img className="about-teaser__img" src={`${import.meta.env.BASE_URL}images/about-workshop.jpg`} alt="An unfinished cabinet mid-build in the Fairfield workshop" loading="lazy" />
           <div className="about-teaser__copy">
-            <h2>Four people, in 1995.<br />Twenty, today.</h2>
+            <h2>The same workshop<br />since 1995.</h2>
             <p className="dim">
               We started with a clear idea: furniture designed to the
               client&rsquo;s exact specification, not the other way around.

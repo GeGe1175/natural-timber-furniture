@@ -51,17 +51,17 @@ export default function About() {
             </p>
           </div>
           <div>
-            <h2>Solid timber, always</h2>
+            <h2>Only solid timber</h2>
             <p className="dim">
               Tasmanian oak, blackwood, jarrah, spotted gum, American oak
               and walnut — no veneers pretending to be something else.
             </p>
           </div>
           <div>
-            <h2>One workshop, one team</h2>
+            <h2>Nothing outsourced</h2>
             <p className="dim">
               The same twenty people who greet you at the showroom build
-              the piece in Fairfield. Nothing is outsourced.
+              the piece in Fairfield.
             </p>
           </div>
         </div>

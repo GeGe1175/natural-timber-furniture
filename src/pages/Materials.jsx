@@ -11,7 +11,7 @@ const STEPS = [
   },
   {
     n: '2',
-    title: 'We choose timber, together',
+    title: 'We choose the timber together',
     body: 'Visit the Crows Nest showroom and hold real swatches against your floors and furniture before anything is cut.',
   },
   {
@@ -31,7 +31,7 @@ export default function Materials() {
     <div className="materials-page">
       <header className="page-head wrap">
         <p className="page-head__kicker dim">Timber &amp; process</p>
-        <h1>You ask, we listen.</h1>
+        <h1>How we work with you.</h1>
         <p className="page-head__lede dim">
           Tell us the design, size, finish and any detail you care about.
           We work mainly in hardwood — Tasmanian oak, blackwood, jarrah,
