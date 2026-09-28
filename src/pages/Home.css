@@ -111,7 +111,6 @@
   gap: 28px;
   overflow-x: auto;
   padding: 0 var(--gutter) 12px;
-  margin: 0 calc(var(--gutter) * -1);
   scroll-snap-type: x proximity;
 }
 .rail__card {
