@@ -108,7 +108,7 @@
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: min(280px, 74vw);
-  gap: 28px;
+  gap: 32px;
   overflow-x: auto;
   padding: 0 var(--gutter) 12px;
   scroll-snap-type: x proximity;
@@ -122,6 +122,7 @@
   overflow: hidden;
   background: var(--ink-raised);
   border: 1px solid var(--line);
+  border-radius: var(--radius);
 }
 .rail__img-wrap img {
   width: 100%;
@@ -150,7 +151,7 @@
 .materials-teaser__inner {
   display: grid;
   grid-template-columns: 1fr 1.1fr;
-  gap: 64px;
+  gap: 72px;
   align-items: center;
 }
 .materials-teaser__copy h2 { font-size: clamp(28px, 3.4vw, 36px); margin-bottom: 18px; }
@@ -158,13 +159,14 @@
 .materials-teaser__swatches {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 18px;
 }
 .materials-teaser__swatches img {
   aspect-ratio: 1;
   object-fit: cover;
   width: 100%;
   border: 1px solid var(--line);
+  border-radius: var(--radius);
 }
 .materials-teaser__swatches img:nth-child(2) { margin-top: 28px; }
 .materials-teaser__swatches img:nth-child(4) { margin-top: 28px; }
@@ -180,7 +182,7 @@
 .about-teaser__inner {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
-  gap: 64px;
+  gap: 72px;
   align-items: center;
 }
 .about-teaser__img {
@@ -188,6 +190,7 @@
   aspect-ratio: 3 / 4;
   object-fit: cover;
   border: 1px solid var(--line);
+  border-radius: var(--radius);
 }
 .about-teaser__copy h2 { font-size: clamp(28px, 3.4vw, 38px); margin-bottom: 20px; }
 .about-teaser__copy p { max-width: 50ch; font-size: 15.5px; }

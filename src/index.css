@@ -25,6 +25,8 @@
 
   --wrap: 1180px;
   --gutter: clamp(20px, 5vw, 64px);
+  --radius-sm: 10px;
+  --radius: 20px;
 
   color-scheme: dark;
   font-synthesis: none;
@@ -94,8 +96,9 @@ textarea:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 13px 26px;
+  padding: 14px 28px;
   border: 1px solid var(--brass);
+  border-radius: var(--radius-sm);
   background: transparent;
   color: var(--linen);
   font-size: 14.5px;
