@@ -1,0 +1,100 @@
+.timber-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 32px;
+  padding-bottom: 100px;
+}
+
+.timber-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3.2;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  margin-bottom: 18px;
+}
+.timber-card h2 { font-size: 19px; margin-bottom: 8px; }
+.timber-card p { font-size: 14px; line-height: 1.6; }
+
+.timber-card--cta {
+  background: var(--ink-raised);
+  border: 1px solid var(--line);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  color: var(--brass);
+}
+.timber-card--cta .ruler-mark { width: 90px; height: 12px; }
+.timber-card--cta h2 { color: var(--linen); }
+.timber-card--cta .brass-btn { align-self: flex-start; margin-top: 6px; }
+
+.process {
+  background: var(--ink-raised);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 90px 0;
+}
+.process__heading {
+  font-size: clamp(26px, 3.2vw, 34px);
+  max-width: 24ch;
+  margin-bottom: 48px;
+}
+.process__steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+.process__steps li {
+  border-top: 1px solid var(--brass);
+  padding-top: 18px;
+}
+.process__n {
+  font-family: var(--display);
+  font-size: 15px;
+  color: var(--brass);
+}
+.process__steps h3 {
+  font-size: 17px;
+  margin: 10px 0 8px;
+}
+.process__steps p { font-size: 14px; line-height: 1.55; }
+
+.workshop-band {
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+}
+.workshop-band img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.9) brightness(0.5);
+}
+.workshop-band__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(23,20,15,0.85) 10%, rgba(23,20,15,0.25) 70%);
+}
+.workshop-band__copy { position: relative; max-width: 620px; }
+.workshop-band__copy p {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: clamp(20px, 2.6vw, 27px);
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .timber-grid { grid-template-columns: repeat(2, 1fr); }
+  .process__steps { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .timber-grid { grid-template-columns: 1fr; }
+  .process__steps { grid-template-columns: 1fr; }
+}
